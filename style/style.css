@@ -35,7 +35,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 50px 200px;
+    padding: 50px 200px;
 }
 
 nav ul {
@@ -52,11 +52,12 @@ nav li {
     margin: 0 200px;
     display: flex;
     align-items: center;
+    height: 600px;
 }
+
 .banner-title{
     font-weight: 700;
     font-size: 45px;
- 
 
 }
 .banner-sub-title{
@@ -70,12 +71,12 @@ nav li {
     margin-bottom: 30px;
 }
 
+
 /*main About section style */
 
 main{
-    max-width: 1140px;
+    width: 1140px;
     margin: 0 auto;
-    width: 100%;
 }
 
 .About{
